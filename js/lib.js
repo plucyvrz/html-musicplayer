@@ -1,6 +1,16 @@
 var listmusik = {
-    "name": ["ThisLove", "StayWithMe", "CanYouHearMyHeart", "WeWereInLove"],
-    "img": ["This_Love.jpg", "Stay_With_Me.jpg", "Can_You_Hear_My_Heart.jpg", "We_Were_In_Love.jpg"]
+    "name": [
+        "ThisLove", 
+        "StayWithMe", 
+        "CanYouHearMyHeart", 
+        "WeWereInLove"
+    ],
+    "img": [
+        "This_Love.jpg", 
+        "Stay_With_Me.jpg", 
+        "Can_You_Hear_My_Heart.jpg", 
+        "We_Were_In_Love.jpg"
+    ]
 };
 var value = 0;
 
