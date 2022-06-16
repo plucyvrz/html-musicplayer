@@ -15,9 +15,9 @@ var listmusik = {
 var value = 0;
 
 function show() {
-    $("#display").html(`<img src="https://raw.githubusercontent.com/plucyvrz/playlist/main/Kpop/img/${listmusik.img[value]}" width="300" height="300"/>
+    $("#display").html(`<img src="https://raw.githubusercontent.com/plucyvrz/playlist/main/Random/img/${listmusik.img[value]}" width="300" height="300"/>
                                              <h2><font color="#c128c9">${listmusik.name[value]}</font><h2>`);
-    $("#audio").attr("src", `https://raw.githubusercontent.com/plucyvrz/playlist/main/Kpop/audio/${listmusik.name[value]}.mp3`);
+    $("#audio").attr("src", `https://raw.githubusercontent.com/plucyvrz/playlist/main/Random/audio/${listmusik.name[value]}.mp3`);
 }
 show();
 var audio = document.getElementById("audio");
